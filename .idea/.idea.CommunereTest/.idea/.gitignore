@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.CommunereTest.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Hassan\RiderProjects\CommunereTest\.idea\.idea.CommunereTest\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
