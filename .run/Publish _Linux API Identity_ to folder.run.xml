@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish &quot;Linux API Identity&quot; to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish runtime="linux-x64" target_folder="./../../../publish/linux/api.identity/publish" target_framework="net5.0" uuid_high="-3872159419181807714" uuid_low="-7752236824301964364" />
+    <method v="2">
+      <option name="CleanSolution" enabled="true" />
+      <option name="Build Solution" enabled="true" />
+      <option name="Publish Solution" enabled="true" />
+    </method>
+  </configuration>
+</component>

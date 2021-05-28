@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish &quot;Linux API Contact&quot; to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish runtime="linux-x64" target_folder="./../../../publish/linux/api.contact/publish" target_framework="net5.0" uuid_high="722737827116109483" uuid_low="-4693376133223978736" />
+    <method v="2">
+      <option name="CleanSolution" enabled="true" />
+      <option name="Build Solution" enabled="true" />
+      <option name="Publish Solution" enabled="true" />
+    </method>
+  </configuration>
+</component>
