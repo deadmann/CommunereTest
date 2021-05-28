@@ -1,0 +1,3 @@
+IConfiguration -- instance.GetValue<>():
+    
+    Package => Microsoft.Extensions.Configuration.Binder

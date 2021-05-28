@@ -1,0 +1,36 @@
+=================================
+DotNet CLI:
+=================================
+
+dotnet ef migrations add <name>  --context AppDbContext ?? ----DOESN'T WORK-----
+StartUp Directory\> dotnet ef migrations add <migration-name> --context <context-name> --project ../<Data-Project>
+
+StartUp Directory\> dotnet ef migrations remove --context <context-name> --project ../<Data-Project>
+
+StartUp Directory\> dotnet ef migrations script --context AppDbContext -o ./../../publish/script.sql
+
+StartUp Directory\> dotnet ef database update --context <context-name>
+StartUp Directory\> dotnet ef database update -- --environment Production     #ef core 5 `--` treat everything that follows as an argument and not try to parse them as options.
+
+THIS PROJECT SAMPLE:
+C:\Users\Hassan\RiderProjects\CommunereTest\Presentation\CommunereTest.Api.Identity>
+dotnet ef migrations add initial-migration 
+--context AppDbContext 
+--project ../../Infrastructure/CommunereTest.Persistance
+
+=================================
+Nuget Package Manager Console:
+=================================
+
+Add-Migration <name> -Context AppDbContext
+
+Remove-Migration -Context AppDbContext
+
+Development: Update-Database -Context AppDbContext
+Production:  Update-Database -Context AppDbContext -Args '--environment Production'
+
+
+-----------------------
+Extra: 
+-o --OutputDir Data\Migration  ... location of migrations
+-s Startup Project
