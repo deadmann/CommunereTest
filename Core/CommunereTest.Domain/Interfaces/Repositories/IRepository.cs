@@ -11,7 +11,7 @@ namespace CommunereTest.Domain.Interfaces.Repositories
         TData GetById(TId id);
         Task<TData> GetByIdAsync(TId id, CancellationToken cancellationToken = default);
         
-        void Create(TData data);
+        TData Create(TData data);
         void Update(TData data);
         void Delete(TData data);
         void DeleteById(TId id);

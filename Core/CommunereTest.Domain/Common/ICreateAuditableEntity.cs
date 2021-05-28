@@ -5,7 +5,8 @@ namespace CommunereTest.Domain.Common
 {
     public interface ICreateAuditableEntity
     {
-        public DateTime CreatedAt { get; set; }
-        public User CreatedBy { get; set; }
+        Guid? CreatedById { get; set; }
+        DateTime? CreatedAt { get; set; }
+        User CreatedBy { get; set; }
     }
 }

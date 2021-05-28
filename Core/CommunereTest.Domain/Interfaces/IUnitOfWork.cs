@@ -12,6 +12,7 @@ namespace CommunereTest.Domain.Interfaces
         public IContactDetailRepository ContactDetailRepository { get; set; }
         
         public IUserRepository UserRepository { get; set; }
+        public IEmailVerificationCodeRepository EmailVerificationCodes { get; set; }
 
         public void SaveChanges();
         public Task SaveChangesAsync(CancellationToken cancellationToken = default);

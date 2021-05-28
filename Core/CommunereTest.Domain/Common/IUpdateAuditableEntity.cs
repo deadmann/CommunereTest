@@ -5,7 +5,8 @@ namespace CommunereTest.Domain.Common
 {
     public interface IUpdateAuditableEntity
     {
-        public DateTime UpdatedAt { get; set; }
-        public User UpdatedBy { get; set; }
+        Guid? UpdatedById { get; set; }
+        DateTime? UpdatedAt { get; set; }
+        User UpdatedBy { get; set; }
     }
 }
